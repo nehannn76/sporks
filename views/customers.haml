@@ -38,5 +38,22 @@
           %li{}
             %a{:href => "#"}About
   %div{:align => "center"}
-    %img{:align => "center", :src => "http://i.imgur.com/1dkYjUa.jpg"}
-    %h1{} spörks
+    %h1 Customer List
+    %table{"class" => "table"}
+      %thead
+        %tr
+          %th Company
+          %th Address 1
+          %th City
+          %th State
+          %th Zip
+          %th Country
+      %tbody
+      - customers["Customers"].each do |customer|
+        %tr
+          %td= customer["Customer"]["name"]
+          %td= customer["Customer"]["addr"]
+          %td= customer["Customer"]["city"]
+          %td= customer["Customer"]["state"]
+          %td= customer["Customer"]["zip"]
+          %td= customer["Customer"]["country"]

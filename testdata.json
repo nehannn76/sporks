@@ -1,0 +1,30 @@
+{"Customers":[
+  {"Customer":{
+    "name":"McDonalds",
+    "addr":"2111 McDonald's Dr.",
+    "city":"Oak Brook",
+    "state":"IL",
+    "zip":"60523",
+    "country":"United States"
+    }
+  },
+  {"Customer":{
+    "name":"Burger King",
+    "addr":"5505 Blue Lagoon Drive",
+    "city":"Miami",
+    "state":"FL",
+    "zip":"33126",
+    "country":"United States"
+    }
+  },
+  {"Customer":{
+    "name":"Reids Drive-In",
+    "addr":"150 Lake Ave",
+    "city":"Lockport",
+    "state":"NY",
+    "zip":"14094",
+    "country":"United States"
+    }
+  }
+ ]
+}
