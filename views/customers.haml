@@ -44,15 +44,19 @@
         %tr
           %th Company
           %th Address 1
+          %th Address 2
+          %th Address 3
           %th City
-          %th State
+          %th State or Province
           %th Zip
           %th Country
       %tbody
       - customers["Customers"].each do |customer|
         %tr
           %td= customer["Customer"]["name"]
-          %td= customer["Customer"]["addr"]
+          %td= customer["Customer"]["addr1"]
+          %td= customer["Customer"]["addr2"]
+          %td= customer["Customer"]["addr3"]
           %td= customer["Customer"]["city"]
           %td= customer["Customer"]["state"]
           %td= customer["Customer"]["zip"]

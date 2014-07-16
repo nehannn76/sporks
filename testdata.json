@@ -1,7 +1,9 @@
 {"Customers":[
   {"Customer":{
     "name":"McDonalds",
-    "addr":"2111 McDonald's Dr.",
+    "addr1":"2111 McDonald's Dr.",
+    "addr2":"",
+    "addr3":"",
     "city":"Oak Brook",
     "state":"IL",
     "zip":"60523",
@@ -10,7 +12,9 @@
   },
   {"Customer":{
     "name":"Burger King",
-    "addr":"5505 Blue Lagoon Drive",
+    "addr1":"5505 Blue Lagoon Drive",
+    "addr2":"",
+    "addr3":"",
     "city":"Miami",
     "state":"FL",
     "zip":"33126",
@@ -19,7 +23,9 @@
   },
   {"Customer":{
     "name":"Reids Drive-In",
-    "addr":"150 Lake Ave",
+    "addr1":"150 Lake Ave",
+    "addr2":"Suite 100",
+    "addr3":"",
     "city":"Lockport",
     "state":"NY",
     "zip":"14094",
