@@ -1,7 +1,6 @@
 require 'sinatra'
 require 'haml'
 require 'json'
-require 'redis'
 
 helpers do
   def protected!
